@@ -1,15 +1,15 @@
     <footer class="footer">
         <div class="footer__grid contenedor">
             <div class="footer__logo">
-                <a href="index.php">
+                <a href="/">
                     <img src="build/img/logo.svg" alt="logo der Spanier">
                 </a>
             </div>
             <nav class="footer__navegacion">
-                <a class="footer__enlace" href="index.php">Startseite</a>
-                <a class="footer__enlace" href="ueber-uns.php">Über uns</a>
-                <a class="footer__enlace" href="produkte.php">Produkte</a>
-                <a class="footer__enlace" href="kontakt.php">kontakt</a>
+                <a class="footer__enlace" href="/">Startseite</a>
+                <a class="footer__enlace" href="/ueber-uns">Über uns</a>
+                <a class="footer__enlace" href="/produkte">Produkte</a>
+                <a class="footer__enlace" href="/kontakt">kontakt</a>
             </nav>
         </div>
         <div class="kundeninfo">

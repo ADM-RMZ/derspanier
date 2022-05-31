@@ -17,7 +17,7 @@
     <header class="header ">
         <div class="header__grid contenedor">
             <div class="header__logo">
-                <a href="index.php">
+                <a href="/">
                     <img src="build/img/logo.svg" alt="logo der Spanier">
                 </a>
             </div>
@@ -27,10 +27,10 @@
             </div>
             
             <nav class="navegacion">
-                <a class="navegacion__enlace" href="index.php">Startseite</a>
-                <a class="navegacion__enlace" href="ueber-uns.php">Über uns</a>
-                <a class="navegacion__enlace" href="produkte.php">Produkte</a>
-                <a class="navegacion__enlace" href="kontakt.php">kontakt</a>
+                <a class="navegacion__enlace" href="/">Startseite</a>
+                <a class="navegacion__enlace" href="/ueber-uns">Über uns</a>
+                <a class="navegacion__enlace" href="produkte">Produkte</a>
+                <a class="navegacion__enlace" href="kontakt">kontakt</a>
             </nav>
             
         </div>
