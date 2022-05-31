@@ -29,8 +29,8 @@
             <nav class="navegacion">
                 <a class="navegacion__enlace" href="/">Startseite</a>
                 <a class="navegacion__enlace" href="/ueber-uns">Über uns</a>
-                <a class="navegacion__enlace" href="produkte">Produkte</a>
-                <a class="navegacion__enlace" href="kontakt">kontakt</a>
+                <a class="navegacion__enlace" href="/produkte">Produkte</a>
+                <a class="navegacion__enlace" href="/kontakt">kontakt</a>
             </nav>
             
         </div>
