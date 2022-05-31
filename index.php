@@ -54,7 +54,7 @@
             <div class="horario__contenido">
                 <h3 class="horario__heading">Öffnungszeiten</h3>
                 <p class="horario__texto">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil optio, maxime, deleniti aperiam atque in praesentium suscipit autem minus aliquam molestias eos, adipisci vero id enim doloribus ex rem delectus.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil optio, maxime, deleniti aperiam atque in praesentium suscipit autem minus aliquam molestias eos.
                 </p>
 
                 <table class="tabla">
@@ -68,45 +68,52 @@
 
                     <tbody class="tabla__tbody">
                         <tr class="tabla__tr">
-                            <td class="tabla__td">Montag</td>
-                            <td class="tabla__td">10:00 - 13:00</td>
-                            <td class="tabla__td">14:30 - 18:30</td>
+                            <td class="tabla__td">Montag*</td>
+                            <td class="tabla__td">10:00 Uhr</td>
+                            <td class="tabla__td">18:30 Uhr</td>
                         </tr>
 
                         <tr class="tabla__tr">
-                            <td class="tabla__td">Dienstag</td>
-                            <td class="tabla__td">10:00 - 13:00</td>
-                            <td class="tabla__td">14:30 - 18:30</td>
+                            <td class="tabla__td">Dienstag*</td>
+                            <td class="tabla__td">10:00 Uhr</td>
+                            <td class="tabla__td">18:30 Uhr</td>
                         </tr>
 
                         <tr class="tabla__tr">
-                            <td class="tabla__td">Mittwoch</td>
-                            <td class="tabla__td">10:00 - 13:00</td>
-                            <td class="tabla__td">14:30 - 18:30</td>
+                            <td class="tabla__td">Mittwoch*</td>
+                            <td class="tabla__td">10:00 Uhr</td>
+                            <td class="tabla__td">18:30 Uhr</td>
                         </tr>
 
                         <tr class="tabla__tr">
-                            <td class="tabla__td">Donnerstag</td>
-                            <td class="tabla__td">10:00 - 13:00</td>
-                            <td class="tabla__td">14:30 - 18:30</td>
+                            <td class="tabla__td">Donnerstag*</td>
+                            <td class="tabla__td">10:00 Uhr</td>
+                            <td class="tabla__td">18:30 Uhr</td>
                         </tr>
 
                         <tr class="tabla__tr">
-                            <td class="tabla__td">Freitag</td>
-                            <td class="tabla__td">10:00 - 13:00</td>
-                            <td class="tabla__td">14:30 - 18:30</td>
+                            <td class="tabla__td">Freitag*</td>
+                            <td class="tabla__td">10:00 Uhr</td>
+                            <td class="tabla__td">18:30 Uhr</td>
                         </tr>
 
                         <tr class="tabla__tr">
                             <td class="tabla__td">Samstag</td>
-                            <td class="tabla__td">10:00 - 13:00</td>
-                            <td class="tabla__td">14:30 - 18:30</td>
+                            <td class="tabla__td">10:00 Uhr</td>
+                            <td class="tabla__td">14:30 Uhr</td>
                         </tr>
 
                         <tr class="tabla__tr">
                             <td class="tabla__td">Sonntag</td>
                             <td class="tabla__td" colspan="2">geschlossen</td>
                         </tr>
+
+                        <tr class="tabla__tr">
+                            <td class="tabla__td">*Mittagspause</td>
+                            <td class="tabla__td">13:00 Uhr</td>
+                            <td class="tabla__td">14:30 Uhr</td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
