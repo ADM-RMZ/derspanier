@@ -1,10 +1,4 @@
-<?php 
-  if( isset($_COOKIE['setCookieHinweis']) ) { 
-    $showPopup = false;
-  } else {
-    $showPopup = true;
-  }
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,18 +13,6 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
     <link rel="stylesheet" href="build/css/app.css">
 </head>
-
-<?php if($showPopup) { ?>
-  <div id="cookie-popup">
-    <div class="hinweis">
-      <p>Wir verwenden Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.</p>
-    </div> 
-    <span class="more">
-      <a href="/datenschutz">Details</a>
-    </span>
-    <button onclick='cookieOk()'>OK, ich bin einverstanden.</button>
-  </div>
-  <?php  }; ?>
 
 <body>
 
