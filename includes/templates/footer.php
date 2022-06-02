@@ -24,10 +24,6 @@
             </div>
         </div>
     </footer>   
- 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
-
     <?php 
         $archivo = basename($_SERVER['PHP_SELF']);
         $pagina = str_replace(".php", "", $archivo);
@@ -36,7 +32,6 @@
             echo '<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>';
         }
     ?>
-
     <script src="build/js/app.js"></script>
     <script src="build/js/modernizr.js"></script>
 </body>
