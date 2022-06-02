@@ -7,9 +7,9 @@
             </div>
             <nav class="footer__navegacion">
                 <a class="footer__enlace" href="/">Startseite</a>
-                <a class="footer__enlace" href="/ueber-uns">Über uns</a>
-                <a class="footer__enlace" href="/produkte">Produkte</a>
-                <a class="footer__enlace" href="/kontakt">kontakt</a>
+                <a class="footer__enlace" href="ueber-uns">Über uns</a>
+                <a class="footer__enlace" href="produkte">Produkte</a>
+                <a class="footer__enlace" href="kontakt">kontakt</a>
             </nav>
         </div>
         <div class="kundeninfo">
@@ -18,8 +18,8 @@
                     <?php echo date('Y');?> der Spanier. All Rights Reserved - Designed bei MC²
                 </div>
                 <nav class="kundeninfo__navegacion">
-                    <a class="kundeninfo__info" href="impressum.php">Impressum</a>
-                    <a class="kundeninfo__info" href="datenschutz.php">Datenschutz</a>
+                    <a class="kundeninfo__info" href="impressum">Impressum</a>
+                    <a class="kundeninfo__info" href="datenschutz">Datenschutz</a>
                 </nav>
             </div>
         </div>
@@ -38,5 +38,6 @@
     ?>
 
     <script src="build/js/app.js"></script>
+    <script src="build/js/modernizr.js"></script>
 </body>
 </html>

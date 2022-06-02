@@ -12,8 +12,12 @@
                 <h3 class="kontakt__nombre">Öffnungszeiten</h3>
                 <p class="kontakt__texto">Montag bis Freitag von 10:00 Uhr - 13:00 Uhr und 14:30 Uhr - 18:30 Uhr <br> Samstag von 10:00 Uhr - 14:30 Uhr</p>
             </div>
-
-            <img src="build/img/kontakt_tienda.png" alt="imagen nosotros">
+            <picture>
+                <source srcset="build/img/kontakt_tienda.avif" type="image/avif"> 
+                <source srcset="build/img/kontakt_tienda.webp" type="image/webp">
+                <img width="200" height="300" loading="lazy" src="build/img/kontakt_tienda.png" alt="imagen nosotros">
+            </picture> 
+            
 
         </div>
     </main>

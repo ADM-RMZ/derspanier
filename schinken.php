@@ -7,7 +7,11 @@
         <div class="produktebes__grid">
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_iberico.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_serrano.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_serrano.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -18,7 +22,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_serrano.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_serrano.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -29,7 +37,11 @@
     
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_serrano.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_serrano.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -40,7 +52,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_serrano.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_serrano.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -51,7 +67,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_serrano.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_serrano.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -62,7 +82,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_serrano.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_serrano.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_serrano.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">

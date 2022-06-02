@@ -5,7 +5,11 @@
         <h1 class="bienvenida__heading">Über uns</h1>
 
         <div class="nosotros__bienvenida">
-            <img src="build/img/man.png" alt="imagen nosotros">
+            <picture>
+                <source srcset="build/img/man.avif" type="image/avif"> 
+                <source srcset="build/img/man.webp" type="image/webp">
+                <img width="200" height="300" loading="lazy" src="build/img/man.png" alt="imagen nosotros">
+            </picture>            
 
             <div class="nosotros__contenido">
                 <p class="nosotros__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur recusandae obcaecati, ipsam hic assumenda excepturi repellat explicabo blanditiis dolorem quisquam similique eum, consequuntur vel commodi! Recusandae assumenda distinctio quidem dolorem!</p>

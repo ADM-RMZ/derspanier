@@ -11,19 +11,43 @@
     <section class="swiper contenedor">
         <ul class="swiper-wrapper">
             <li class="swiper-slide">
-                <img class="slider__imagen" src="build/img/slide_jamon01.png" alt="imagen slide">
+                <picture>
+                    <source srcset="build/img/slide_jamon01.avif" type="image/avif"> 
+                    <source srcset="build/img/slide_jamon01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_jamon01.png" alt="imagen slide">
+                </picture>
             </li>
             <li class="swiper-slide">
-                <img class="slider__imagen" src="build/img/slide_kasse01.png" alt="imagen slide">
+                <picture>
+                    <source srcset="build/img/slide_kasse01.avif" type="image/avif"> 
+                    <source srcset="build/img/slide_kasse01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_kasse01.png" alt="imagen slide">
+                </picture>
+
+                
             </li>
             <li class="swiper-slide">
-                <img class="slider__imagen" src="build/img/slide_wein01.png" alt="imagen slide">
+                <picture>
+                    <source srcset="build/img/slide_wein01.avif" type="image/avif"> 
+                    <source srcset="build/img/slide_wein01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_wein01.png" alt="imagen slide">
+                </picture>
+                
             </li>
             <li class="swiper-slide">
-                <img class="slider__imagen" src="build/img/slide_empanadas01.png" alt="imagen slide">
+                <picture>
+                    <source srcset="build/img/slide_empanadas01.avif" type="image/avif"> 
+                    <source srcset="build/img/slide_empanadas01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_empanadas01.png" alt="imagen slide">
+                </picture>
+                
             </li>
             <li class="swiper-slide">
-                <img class="slider__imagen" src="build/img/slide_food01.png" alt="imagen slide">
+                <picture>
+                    <source srcset="build/img/slide_food01.avif" type="image/avif"> 
+                    <source srcset="build/img/slide_food01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_food01.png" alt="imagen slide">
+                </picture>
             </li>
             
         </ul>
@@ -32,18 +56,25 @@
     <section class="cards">
         <div class="cards__grid contenedor">
             <div class="card">
-                <img class="card__imagen" src="build/img/nosotros_01.png" alt="imagen card">
+                <picture>
+                    <source srcset="build/img/nosotros_01.avif" type="image/avif"> 
+                    <source srcset="build/img/nosotros_01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="card__imagen" src="build/img/nosotros_01.png" alt="imagen card">
+                </picture>
                 <div class="card__contenido">
                     <h2 class="card__heading">Über <span>uns</span> </h2>
-                    <a class="card__enlace" href="ueber-uns.php">Weiterlesen</a>
+                    <a class="card__enlace" href="ueber-uns">Weiterlesen</a>
                 </div>
             </div>
-
             <div class="card">
-                <img class="card__imagen" src="build/img/servicio_laden.png" alt="imagen card">
+                <picture>
+                    <source srcset="build/img/servicio_laden.avif" type="image/avif"> 
+                    <source srcset="build/img/servicio_laden.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="card__imagen" src="build/img/servicio_laden.png" alt="imagen card">
+                </picture>
                 <div class="card__contenido">
                     <h2 class="card__heading">Besuchen Sie unser <span>Markt</span> </h2>
-                    <a class="card__enlace" href="produkte.php">Weiterlesen</a>
+                    <a class="card__enlace" href="produkte">Weiterlesen</a>
                 </div>
             </div>
         </div>
@@ -126,7 +157,11 @@
         <div class="productos__grid">
             <div class="producto">
                 <div class="producto__mask">
-                    <img class="producto__imagen" src="build/img/producto01.png" alt="imagen producto">
+                <picture>
+                    <source srcset="build/img/producto01.avif" type="image/avif"> 
+                    <source srcset="build/img/producto01.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="producto__imagen" src="build/img/producto01.png" alt="imagen producto">
+                </picture>                    
                 </div>
                 <div class="producto__contenido">
                     <h3 class="producto__nombre">Wurstwaren</h3>
@@ -135,7 +170,11 @@
             </div>
             <div class="producto">
                 <div class="producto__mask">
-                    <img class="producto__imagen" src="build/img/producto02.png" alt="imagen producto">
+                <picture>
+                    <source srcset="build/img/producto02.avif" type="image/avif"> 
+                    <source srcset="build/img/producto02.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="producto__imagen" src="build/img/producto02.png" alt="imagen producto">
+                </picture>                    
                 </div>
                 <div class="producto__contenido">
                     <h3 class="producto__nombre">Käsesorten</h3>
@@ -144,7 +183,11 @@
             </div>
             <div class="producto">
                 <div class="producto__mask">
-                    <img class="producto__imagen" src="build/img/producto03.png" alt="imagen producto">
+                <picture>
+                    <source srcset="build/img/producto03.avif" type="image/avif"> 
+                    <source srcset="build/img/producto03.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="producto__imagen" src="build/img/producto03.png" alt="imagen producto">
+                </picture>                    
                 </div>
                 <div class="producto__contenido">
                     <h3 class="producto__nombre">Meeresfrüchte</h3>
@@ -153,7 +196,11 @@
             </div>
             <div class="producto">
                 <div class="producto__mask">
-                    <img class="producto__imagen" src="build/img/producto04.png" alt="imagen producto">
+                <picture>
+                    <source srcset="build/img/producto04.avif" type="image/avif"> 
+                    <source srcset="build/img/producto04.webp" type="image/webp">
+                    <img width="200" height="300" loading="lazy" class="producto__imagen" src="build/img/producto04.png" alt="imagen producto">
+                </picture>                    
                 </div>
                 <div class="producto__contenido">
                     <h3 class="producto__nombre">Wein / Spirituosen</h3>

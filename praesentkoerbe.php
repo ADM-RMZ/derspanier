@@ -7,7 +7,11 @@
         <div class="produktebes__grid">
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_olivenoel.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_olivenoel.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_olivenoel.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -18,7 +22,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_koerbe.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_koerbe.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -29,7 +37,11 @@
     
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_koerbe.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_koerbe.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -40,7 +52,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_koerbe.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_koerbe.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -51,7 +67,11 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        <picture>
+                            <source srcset="build/img/artikel_koerbe.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_koerbe.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        </picture>
                     </div>
                     
                     <div class="artikel__contenido">
@@ -62,9 +82,12 @@
 
                 <div class="artikel">
                     <div class="artikel__imagen">
-                        <img src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
-                    </div>
-                    
+                        <picture>
+                            <source srcset="build/img/artikel_koerbe.avif" type="image/avif"> 
+                            <source srcset="build/img/artikel_koerbe.webp" type="image/webp">
+                            <img width="200" height="300" loading="lazy" src="build/img/artikel_koerbe.png" alt="Imagen Producto" >
+                        </picture>
+                    </div>                    
                     <div class="artikel__contenido">
                         <h3 class="artikel__nombre">Producto 6</h3>
                         <p class="artikel__texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>

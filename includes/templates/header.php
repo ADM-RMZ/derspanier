@@ -41,9 +41,9 @@
             
             <nav class="navegacion">
                 <a class="navegacion__enlace" href="/">Startseite</a>
-                <a class="navegacion__enlace" href="/ueber-uns">Über uns</a>
-                <a class="navegacion__enlace" href="/produkte">Produkte</a>
-                <a class="navegacion__enlace" href="/kontakt">kontakt</a>
+                <a class="navegacion__enlace" href="ueber-uns">Über uns</a>
+                <a class="navegacion__enlace" href="produkte">Produkte</a>
+                <a class="navegacion__enlace" href="kontakt">kontakt</a>
             </nav>
             
         </div>
@@ -56,7 +56,12 @@
                         so könnte man einen Besuch im "Der Spanier" beschreiben</p>
                 </div>
             </div>
-            <img class="header__flag" src="build/img/header_flag.png" alt="imagen header">
+            <picture>
+                    <source srcset="build/img/header_flag.avif" type="image/avif"> 
+                    <source srcset="build/img/header_flag.webp" type="image/webp">                    
+                    <img width="200" height="300" loading="lazy" class="header__flag" src="build/img/header_flag.png" alt="imagen header">
+            </picture>
+            
             
         <?php } ?>
 
