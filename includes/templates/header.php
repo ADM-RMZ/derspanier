@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>der Spanier</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="build/css/app.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/build/css/app.css">
     <?php
-            $archivo = basename($_SERVER['PHP_SELF']);
-            $pagina = str_replace(".php", "", $archivo);
-            if($pagina == 'index'){
-                echo '<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">';
-                echo '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="">';
+            $archivo = basename($_SERVER['PHP_SELF']);            
+            $pagina = str_replace(".php", "", $archivo);            
+            if($pagina == 'index'){                
+                echo '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />';
             }
     ?>
+    
+
+    
 </head>
 <div class="cookies" id="cookies">
     <div class="container">
         <div class="subcontainer">
             <div class="cookies__contenido">
               <p class="cookies__texto">Wir verwenden Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.
-                <a class="cookies__enlace" href="/datenschutz">Details</a>
+                <a class="cookies__enlace" href="datenschutz">Details</a>
               </p>
               <button class="cookies-btn">OK, ich bin einverstanden.</button>
             </div>
@@ -38,7 +40,7 @@
         <div class="header__grid contenedor">
             <div class="header__logo">
                 <a href="/">
-                    <img src="build/img/logo.svg" alt="logo der Spanier">
+                    <img src="/build/img/logo.svg" alt="logo der Spanier">
                 </a>
             </div>
 
