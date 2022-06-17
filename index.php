@@ -14,39 +14,35 @@
                 <picture>
                     <source srcset="build/img/slide_jamon01.avif" type="image/avif"> 
                     <source srcset="build/img/slide_jamon01.webp" type="image/webp">
-                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_jamon01.png" alt="imagen slide">
+                    <img width="200" height="300" class="slider__imagen" src="build/img/slide_jamon01.png" alt="imagen slide">
                 </picture>
             </li>
             <li class="swiper-slide">
                 <picture>
                     <source srcset="build/img/slide_kasse01.avif" type="image/avif"> 
                     <source srcset="build/img/slide_kasse01.webp" type="image/webp">
-                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_kasse01.png" alt="imagen slide">
-                </picture>
-
-                
+                    <img width="200" height="300" class="slider__imagen" src="build/img/slide_kasse01.png" alt="imagen slide">
+                </picture>                
             </li>
             <li class="swiper-slide">
                 <picture>
                     <source srcset="build/img/slide_wein01.avif" type="image/avif"> 
                     <source srcset="build/img/slide_wein01.webp" type="image/webp">
-                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_wein01.png" alt="imagen slide">
-                </picture>
-                
+                    <img width="200" height="300" class="slider__imagen" src="build/img/slide_wein01.png" alt="imagen slide">
+                </picture>                
             </li>
             <li class="swiper-slide">
                 <picture>
                     <source srcset="build/img/slide_empanadas01.avif" type="image/avif"> 
                     <source srcset="build/img/slide_empanadas01.webp" type="image/webp">
-                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_empanadas01.png" alt="imagen slide">
-                </picture>
-                
+                    <img width="200" height="300" class="slider__imagen" src="build/img/slide_empanadas01.png" alt="imagen slide">
+                </picture>                
             </li>
             <li class="swiper-slide">
                 <picture>
                     <source srcset="build/img/slide_food01.avif" type="image/avif"> 
                     <source srcset="build/img/slide_food01.webp" type="image/webp">
-                    <img width="200" height="300" loading="lazy" class="slider__imagen" src="build/img/slide_food01.png" alt="imagen slide">
+                    <img width="200" height="300" class="slider__imagen" src="build/img/slide_food01.png" alt="imagen slide">
                 </picture>
             </li>
             
